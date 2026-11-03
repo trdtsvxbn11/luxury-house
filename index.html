@@ -1,139 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luxury Mansion Landing Page</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            background-color: #0b0c10;
-            color: #ffffff;
-            font-family: 'Playfair Display', 'Georgia', serif;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url('https://picsum.photos');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
-        header {
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 30px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .logo {
-            font-size: 24px;
-            font-weight: 700;
-            letter-spacing: 3px;
-            color: #d4af37;
-        }
-        .btn-call {
-            border: 1px solid #d4af37;
-            color: #d4af37;
-            text-decoration: none;
-            padding: 10px 25px;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            font-family: sans-serif;
-            font-size: 14px;
-        }
-        .btn-call:hover {
-            background-color: #d4af37;
-            color: #000000;
-        }
-        main {
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 40px 20px;
-        }
-        .card {
-            text-center;
-            max-width: 700px;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.55);
-            padding: 50px 40px;
-            border-radius: 16px;
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            text-align: center;
-        }
-        h1 {
-            font-size: 42px;
-            margin-bottom: 20px;
-            line-height: 1.2;
-            font-weight: 500;
-        }
-        p {
-            font-family: sans-serif;
-            font-size: 16px;
-            color: #cccccc;
-            margin-bottom: 35px;
-            line-height: 1.6;
-        }
-        .price {
-            font-size: 36px;
-            font-weight: 700;
-            color: #d4af37;
-            margin-bottom: 35px;
-            letter-spacing: 1px;
-        }
-        .btn-main {
-            background-color: #d4af37;
-            color: #000000;
-            text-decoration: none;
-            padding: 16px 40px;
-            border-radius: 50px;
-            font-size: 18px;
-            font-weight: 600;
-            font-family: sans-serif;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.15);
-            display: inline-block;
-        }
-        .btn-main:hover {
-            background-color: #f3cf57;
-            transform: translateY(-2px);
-        }
-        footer {
-            padding: 25px;
-            text-align: center;
-            color: #666666;
-            font-size: 13px;
-            font-family: sans-serif;
-            border-t: 1px solid rgba(255, 255, 255, 0.05);
-        }
-        @media (max-width: 768px) {
-            h1 { font-size: 32px; }
-            .card { padding: 30px 20px; }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="logo">LUXURY ESTATE</div>
-        <a href="tel:+79991234567" class="btn-call">Позвонить</a>
-    </header>
-
-    <main>
-        <div class="card">
-            <h1>Эксклюзивная резиденция в Вешках</h1>
-            <p>Премиальный трехэтажный особняк класса де-люкс. Продуманная планировка, элитные материалы отделки и безупречный стиль.</p>
-            <div class="price">140 000 000 ₽</div>
-            <a href="tel:+79991234567" class="btn-main">Связаться с владельцем</a>
-        </div>
-    </main>
-
-    <footer>
-        © 2026 LUXURY ESTATE. Все права защищены.
-    </footer>
-</body>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
