@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury Mansion Landing Page</title>
-    <script src="https://jsdelivr.net"></script>
+    <script src="https://tailwindcss.com"></script>
     <style>
-        body { background-color: #0b0c10; color: #ffffff; font-family: sans-serif; }
+        body { background-color: #0b0c10; color: #ffffff; }
     </style>
 </head>
 <body>
-    <div class="min-h-screen flex flex-col justify-between bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://picsum.photos');">
+    <div class="min-h-screen flex flex-col justify-between bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('https://picsum.photos');">
         <header class="p-6 flex justify-between items-center max-w-7xl mx-auto w-full">
-            <div class="text-xl font-bold tracking-widest text-amber-500">LUXURY ESTATE</div>
-            <a href="tel:+79991234567" class="border border-amber-500 text-amber-500 px-4 py-2 rounded hover:bg-amber-500 hover:text-black transition">Позвонить</a>
+            <div class="text-xl font-bold tracking-widest text-amber-500 font-serif">LUXURY ESTATE</div>
+            <a href="tel:+79991234567" class="border border-amber-500 text-amber-500 px-4 py-2 rounded hover:bg-amber-500 hover:text-black transition duration-300">Позвонить</a>
         </header>
 
-        <main class="flex-grow flex items-center justify-center px-4">
-            <div class="text-center max-w-3xl">
-                <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight">Эксклюзивная резиденция в Вешках</h1>
-                <p class="text-lg md:text-xl text-gray-300 mb-8">Премиальный трехэтажный особняк класса де-люкс. Продуманная планировка, элитные материалы отделки и безупречный стиль.</p>
-                <div class="text-2xl md:text-3xl font-bold text-amber-500 mb-8">140 000 000 ₽</div>
-                <a href="#gallery" class="bg-amber-500 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-400 transition inline-block">Смотреть презентацию</a>
+        <main class="flex-grow flex items-center justify-center px-4 py-20">
+            <div class="text-center max-w-3xl bg-black/40 p-8 rounded-2xl backdrop-blur-sm border border-white/5">
+                <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight text-white font-medium">Эксклюзивная резиденция в Вешках</h1>
+                <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">Премиальный трехэтажный особняк класса де-люкс. Продуманная планировка, элитные материалы отделки и безупречный стиль.</p>
+                <div class="text-3xl md:text-4xl font-bold text-amber-500 mb-8 tracking-wide">140 000 000 ₽</div>
+                <a href="tel:+79991234567" class="bg-amber-500 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-amber-400 transition duration-300 inline-block shadow-lg shadow-amber-500/20">Связаться с владельцем</a>
             </div>
         </main>
 
-        <footer class="p-6 text-center text-gray-500 text-sm border-t border-gray-800">
+        <footer class="p-6 text-center text-gray-500 text-sm border-t border-gray-900 bg-black/20">
             © 2026 LUXURY ESTATE. Все права защищены.
         </footer>
     </div>
